@@ -10,12 +10,11 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
-  final TextEditingController numberController = TextEditingController();
-  final TextEditingController messageController = TextEditingController();
-
-  String number = "";
-  String message = "";
   String countryCode = "";
+  String message = "";
+  final TextEditingController messageController = TextEditingController();
+  String number = "";
+  final TextEditingController numberController = TextEditingController();
 
   @override
   Widget build(BuildContext context) {
